@@ -24,7 +24,7 @@ def main():
             X[octet_index] = octet_value
             found = test(X, C[:8])
             if found:
-                print("found first one : " + print_block(X))
+                print("One more step done : " + print_block(X))
                 break
     return 0
 
