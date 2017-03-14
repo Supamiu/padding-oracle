@@ -25,6 +25,7 @@ def main():
             found = test(X, C[:8])
             if found:
                 print("One more step done : " + print_block(X))
+                X[octet_index] = octet_value ^ octet_index - 6 ^ octet_index - 5
                 break
     return 0
 
