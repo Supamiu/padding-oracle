@@ -26,7 +26,7 @@ def main():
     # On veut pouvoir monitorer le nombre de requêtes envoyées
     total_requests = 0
     # Pour chaque bloc de notre chaine cipher
-    for block_index in range(0, int(len(C) / 8) + 1):
+    for block_index in range(0, int(len(C) / 8)):
         # Pour chaque octet dans le bloc en cours
         for octet_index in reversed(range(0, 8)):
             # On va essayer toutes les valeurs possibles entre 0 et 255 pour notre octet
