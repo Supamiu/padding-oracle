@@ -1,0 +1,3 @@
+The client uses the “signature_algorithms” extension to indicate to the server which signature algorithms may be used in digital signatures. Clients which desire the server to authenticate itself via a certificate MUST send this extension.
+
+ GENERATE_KEYPAIR(): Generates a new DH key pair. A DH key pair consists of  public_key and private_key elements. A public_key represents an encoding of a DH public key into a byte sequence of length DHLEN. The public_key encoding details are specific to each set of DH functions.
